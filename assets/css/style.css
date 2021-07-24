@@ -1,0 +1,50 @@
+.wrapper {
+    width: 700px;
+    height: 800px;
+    background-color: tan;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    border: 2px solid #d5d5d5;
+    overflow: hidden;
+}
+
+.square {
+    cursor: pointer;
+    box-sizing: border-box;
+    flex-basis: 33.3333%; 
+    height: 33.3333%;
+    border: 2px solid #d5d5d5;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.square-img {
+    display: none;
+    width: 100%;
+}
+
+.square:hover {
+    background-color: aquamarine;
+}
+
+.controller {
+    margin-top: 30px;
+}
+.button {
+    font-size: 18px;
+    min-width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
